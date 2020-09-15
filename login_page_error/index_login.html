@@ -1,0 +1,52 @@
+<?php
+session_start();
+session_destroy();
+    ?>
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="utf-8">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="grid.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
+        
+        <title>Ets Jean Labb&eacute;</title>
+    </head>
+    
+    <body>
+        <div class="row container">
+            <img src="person-flat.png">
+            <form method="POST" action="..\login_page\login.php">
+                <div class="row">
+                    <h2>EST JEAN LABBÉ</h2>
+                </div>
+                <div class="row">
+                    <div class="front-input">
+                    <i class="ion-ios-person-outline icon"></i>
+                    <input type="text" name="username" placeholder="Username">
+                    </div>
+                    <div class="front-input">
+                        <i class="ion-ios-locked-outline icon"></i>
+                        <input type="password" name="password" placeholder="Mot de passe">
+                    </div>
+                    <div>
+                        <p class="error"><i class="ion-ios-close-empty icn"></i>Identifiant ou mot de passe est  incorrect </p>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" name="sumit" value="Connecter">
+                    </div>
+                </div>
+                
+                
+            </form>
+        </div>
+        <div>
+            <P class="copyright">
+                 Copyright &copy; 2017 par Est Jhean Labbé.Touts les droit réservé.
+            </P>
+        </div>
+    </body>
+</html>

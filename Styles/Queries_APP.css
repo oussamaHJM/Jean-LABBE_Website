@@ -1,0 +1,118 @@
+/* grandes tablettes à 1200px (petites ecrans)*/
+@media only screen and (max-width: 1200px) {
+    .img-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }   
+    .row {padding: 0 x2%;}
+}
+
+
+/*petits tableettes et grandes tablettes :de 768 à 1024px   */ 
+@media only screen and (max-width: 1053px) {
+    li{margin-left: 80px;}
+    
+}
+@media only screen and (max-width: 887px) {
+    li{margin-left: 50px;}
+    
+}
+@media only screen and (max-width: 797px) {
+    li{margin-left: 30px;}
+    
+}
+@media only screen and (max-width: 764px) {
+    li{margin-left: 10px;padding: 5px;}
+    test{margin-top: 50px;}
+    
+}
+
+@media only screen and (max-width: 649px) {
+    li{margin-left: 5px;}
+    
+}
+
+@media only screen and (max-width: 649px) {
+    li{margin-left: 170px;padding: 10px;}
+    
+}
+@media only screen and (max-width: 542px) {
+    li{margin-left: 130px;padding: 10px;}
+    
+}
+
+@media only screen and (max-width: 504px) {
+    .nv_user{padding: 15px 0;}
+    .deconnexion{padding: 15px 0;}
+}
+
+
+@media only screen and (max-width: 417px) {
+    .nv_user{padding: 2px 0;}
+    .deconnexion{padding: 50px 0;}
+    li{margin-left: 200px;}
+}
+
+
+
+@media only screen and (max-width: 358px) {
+    .nv_user{padding: 0 0;}
+    .deconnexion{padding: 3px 0;}
+    li{margin-left: 200px;}
+}
+
+@media only screen and (max-width: 470px) {
+    li{margin-left: 120px;padding: 5px;}
+}
+
+@media only screen and (max-width: 417px) {
+    .nv_user{padding: 30px 30px;margin-left: 70px;}
+    .deconnexion{padding: 30px 30px;margin-right: 100px;}
+    li{margin-left: 85px;padding: 10px;}
+}
+
+@media only screen and (max-width: 400px) {
+    .nv_user{padding: 30px 20px;margin-left: 70px;}
+    .deconnexion{padding: 30px 20px;margin-right: 100px;}
+    li{margin-left: 70px;padding: 10px;}
+}
+
+@media only screen and (max-width: 377px) {
+    .nv_user{padding: 30px 10px;margin-left: 70px;}
+    .deconnexion{padding: 30px 10px;margin-right: 100px;}
+    li{margin-left: 70px;padding: 10px;}
+}
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    .contact {width: 80%; }
+    
+}
+
+
+/* petits telephones et petit tablettes : de 481 à 767px */
+@media only screen and (max-width: 767px) {
+    body {font-size: 16px; }
+    section { padding: 40px 0; }
+    .main-nav {display: none;}
+    .row,
+    .img-text-box {padding: 0 4%;}
+    .col {width: 100%}
+    h1 {font-size: 180%;}
+    h2 {font-size: 150%;}
+}
+
+
+/* petits telephones : de 0 à 480px (ex :iphone 4s etc)*/
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact {width: 100%; }
+    .col {width: 100%}
+}
+
+
+
+@media only screen and (max-width: 955px) {
+    .main-nav {display: none;}
+}

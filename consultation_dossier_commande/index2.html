@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="utf-8">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="grid.css">
+        <link rel="stylesheet" type="text/css" href="../Styles/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="../Styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="style_Consltation_Commande.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
+        
+        <title>Ets Jean Labb&eacute;</title>
+    </head>
+    <body>
+        <nav class="back">
+            <div class="row">
+                <div class="bar">
+                    <a href="" class="nv_user bar_i"><i class="ion-ios-personadd-outline icone-small"></i>Créer un  utilisateur</a>
+                </div>
+                <div class="bar">
+                    <a href="" class="deconnexion bar_i"><i class="ion-ios-unlocked-outline icone-small"></i>Déconnxion</a>
+                </div>
+                
+            </div>
+            <div class="row">
+                <h3>Est Jhean Labb&eacute;</h3>
+            </div>
+            
+        </nav>
+        <nav class="back">
+                <div class="row">
+                    <ul class="main-nav">
+                        <li> <a href="">Gestion Clients</a>
+                            <ul>
+                                <li><a href="">Consultaion</a></li>
+                                <li><a href="">Ajout client</a></li>
+                                <li><a href="">Recherche Cclient</a></li>
+                                <li><a href="">Recherche Commande</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Gestion Organisme</a>
+                            <ul>
+                                <li><a href="">Consultation</a></li>
+                                <li><a href="">Ajout organisme</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Gestion Statistiques</a>
+                            <ul>
+                                <li><a href="">Statistiques generale</a></li>
+                                <li><a href="">Statistiques demandes d'ententes</a></li>
+                                <li><a href="">Statistiques accords reçus</a></li>
+                                <li><a href="">Statistiques commandes factur&eacute;es</a></li>
+                                <li><a href="">Statistiques commandes r&eacute;gl&eacute;es</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <h2><i class="ion-ios-plus-outline icon"></i>Ajouter nouvelle commande</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="add.php" class="client-form">
+					<div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="code">Nom et Prénom client:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <p>EL-HAJJAM Oussama</p>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="code">N.SS:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <p>............</p>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Date_d'accord">Type commande:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <p>..........</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="nom">Num.commande:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <p>2972009CH17</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Prénom">Forme:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="test" type="text" value="141" disabled>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Prénom">Prescripteur:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="test" type="text" value="test" disabled>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Prénom">Code prescripteur:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="test" type="text" value="test" disabled>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Bénéficiaire">Date d'accord:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="test" type="text" name="Benefice" id="Bénéficiaire" value="09-07-2009" disabled>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Bénéficiaire">Date prescription:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="test" type="text" name="Benefice" id="Bénéficiaire" value="09-07-2009" disabled>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Date_d'accord">Orthése:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <p>01-07-2009</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Date_d'accord">Patronage/Couper/<br>Piquage:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <p>03-07-2009</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Date_d'accord">Montage:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <p>..........</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Date_d'accord">Finition:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <p>..........</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Date_d'accord">Liste et Prix Total TTC:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <p>1-Cuir: 1 X 100 €
+                                2-Chaussure orthop�dique sur mesure, de classe B, la paire: 1 X 751.63 €
+                                851.63 €</p>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="code">Exonération du ticket modérateur:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <p>..........</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label  for="Organisme">Position de la demande:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select class="test" name="Organisme" id="Organisme" disabled>
+                                <option value="choix..">Choix..</option>
+                                <option value="Première attribution">Premiére attribution</option>
+                                <option value="Deuxiéme attribution">Deuxiéme attribution</option>
+                                <option value="Renouvelement">Renouvelement</option>
+                                <option value="Apparail provisoire">Test</option>
+                                <option value="Réparation">Réparation</option>
+                            </select>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Bénéficiaire">Date demande d'entente:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="test" type="text" name="Benefice" id="Bénéficiaire" value="09-07-2009" disabled>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Bénéficiaire">Date de facturation:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="test" type="text" name="Benefice" id="Bénéficiaire" value="09-07-2009" disabled>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Bénéficiaire">Date de réglement:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input class="test" type="text" name="Benefice" id="Bénéficiaire" value="09-07-2009" disabled>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label  for="Organisme">Statut de la commande:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select class="test" name="Organisme" id="Organisme" disabled>
+                                <option value="choix..">Choix..</option>
+                                <option value="Première attribution">Premiére attribution</option>
+                                <option value="Deuxiéme attribution">Deuxiéme attribution</option>
+                                <option value="Renouvelement">Renouvelement</option>
+                                <option value="Apparail provisoire">Test</option>
+                                <option value="Réparation">Réparation</option>
+                            </select>
+                        </div>
+                    </div>
+					<div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Commentaire pour facture:</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <textarea class="test" name="message" ></textarea>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Commentaire:</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <textarea class="test" name="message" ></textarea>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col span-1-of-5 b">
+                                <input type="submit" value="Modifier">
+                            </div>
+                            <div class="col span-2-of-5 b">
+                                <input type="submit" value="Facture Interne">
+                            </div>
+                            <div class="col span-3-of-5 b">
+                                <input type="submit" value="demande d'entente">
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col span-3-of-5 b">
+                                <label>&nbsp;</label>
+                            </div>
+                            <div class="col span-3-of-5 b">
+                                <input type="submit" value="Feuille de soins">
+                            </div>
+                            <div class="col span-4-of-5 b">
+                                <input type="submit" value="Facture Interne">
+                            </div>
+                    </div>
+                    
+                </form>
+            </div>
+            
+
+        
+    </body>
+</html>

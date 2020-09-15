@@ -1,0 +1,44 @@
+/* grandes tablettes à 1200px (petites ecrans)*/
+@media only screen and (max-width: 1200px) {
+    .img-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }   
+    .row {padding: 0 2%;}
+}
+
+
+/*petits tableettes et grandes tablettes :de 768 à 1024px   */ 
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    .contact {width: 80%; }
+    
+}
+
+
+/* petits telephones et petit tablettes : de 481 à 767px */
+@media only screen and (max-width: 767px) {
+    body {font-size: 16px; }
+    section { padding: 40px 0; }
+    .main-nav {display: none;}
+    .row,
+    .img-text-box {padding: 0 4%;}
+    .col {width: 100%}
+    h1 {font-size: 180%;}
+    h2 {font-size: 150%;}
+}
+
+
+/* petits telephones : de 0 à 480px (ex :iphone 4s etc)*/
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact {width: 100%; }
+    .col {width: 100%}
+}
+
+
+
+@media only screen and (max-width: 955px) {
+    .main-nav {display: none;}
+}
